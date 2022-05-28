@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^inst/images$
+^\.github$
+^inst/trash$
+^cran-comments\.md$
