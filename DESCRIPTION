@@ -1,15 +1,27 @@
-Package: concom
 Type: Package
+Package: concom
 Title: Connected Components of an Undirected Graph
-Version: 1.0
+Version: 1.0.0
 Author: Stéphane Laurent
 Maintainer: Stéphane Laurent <laurent_step@outlook.fr>
-Description: Provides a function for fast computation of the connected components of an undirected graph (though not faster than the 'components' function of the 'igraph' package) from the edges or the adjacency matrix of the graph. Based on this one, a function to compute the connected components of a triangle 'rgl' mesh is also provided.
-Encoding: UTF-8
+Description: Provides a function for fast computation of the connected
+    components of an undirected graph (though not faster than the
+    'components' function of the 'igraph' package) from the edges or the
+    adjacency matrix of the graph. Based on this one, a function to
+    compute the connected components of a triangle 'rgl' mesh is also
+    provided.
 License: GPL-3
-Imports: Rcpp (>= 1.0.8), rgl, Rvcg, english
-Suggests: rmarchingcubes
-LinkingTo: Rcpp, BH
 URL: https://github.com/stla/concom
 BugReports: https://github.com/stla/concom/issues
+Imports: 
+    english,
+    Rcpp (>= 1.0.8),
+    rgl,
+    Rvcg
+Suggests: 
+    rmarchingcubes
+LinkingTo: 
+    BH,
+    Rcpp
+Encoding: UTF-8
 RoxygenNote: 7.2.0

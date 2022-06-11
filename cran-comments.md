@@ -2,7 +2,7 @@
 
 * local R 4.1.2, Windows 10
 * local R 4.2.0, Windows 10
-* R 4.2, Ubuntu 20, via Github action
+* R 4.2.0, Ubuntu 20, via Github action
 * win-builder devel
 
 
