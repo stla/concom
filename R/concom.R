@@ -60,7 +60,6 @@ concom <- function(edges){
 #' library(rmarchingcubes)
 #' 
 #' # credit to 'ICN5D' for this isosurface 
-#' # (this is a 'not run' example because it is too time-consuming for CRAN)
 #' f <- function(x, y, z, a, cosb, sinb){
 #'     (sqrt((sqrt(x*x + (y*sinb + a*cosb)^2) - 2)^2) - 1)^2 +
 #'       (sqrt((sqrt(z*z + (y*cosb - a*sinb)^2) - 2)^2) - 1)^2
@@ -70,7 +69,7 @@ concom <- function(edges){
 #' cosb <- cos(b)
 #' sinb <- sin(b)
 #' 
-#' \dontrun{
+#' \donttest{
 #' x <- z <- seq(-3.5, 3.5, len = 150L)
 #' y <- seq(-4.2, 4.2, len = 150L)
 #' g <- expand.grid(X = x, Y = y, Z = z)

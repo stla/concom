@@ -2,11 +2,12 @@ Type: Package
 Package: concom
 Title: Connected Components of an Undirected Graph
 Version: 1.0.0
-Author: Stéphane Laurent
+Authors@R: 
+    person("Stéphane", "Laurent", , "laurent_step@outlook.fr", role = c("cre", "aut"))
 Maintainer: Stéphane Laurent <laurent_step@outlook.fr>
 Description: Provides a function for fast computation of the connected
     components of an undirected graph (though not faster than the
-    'components' function of the 'igraph' package) from the edges or the
+    components() function of the 'igraph' package) from the edges or the
     adjacency matrix of the graph. Based on this one, a function to
     compute the connected components of a triangle 'rgl' mesh is also
     provided.

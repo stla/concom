@@ -4,3 +4,4 @@
 ^\.github$
 ^inst/trash$
 ^cran-comments\.md$
+^CRAN-SUBMISSION$

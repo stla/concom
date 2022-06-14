@@ -1,3 +1,6 @@
+This is a resubmission. I fixed the DESCRIPTION file, and I replaced 
+\dontrun{} with \donttest{}.
+
 ## Testing environments
 
 * local R 4.1.2, Windows 10
